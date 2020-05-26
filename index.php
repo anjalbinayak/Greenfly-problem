@@ -8,4 +8,4 @@ for($i=1; $i<=28; $i++)
     $greenFly->live();
 }
 
-var_dump($greenFly->getTotalChildCount(true));
+echo "Total no of green flies at the end of 28th days is ".$greenFly->getTotalChildCount(true);
